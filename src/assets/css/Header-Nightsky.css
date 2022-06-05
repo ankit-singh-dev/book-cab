@@ -4,14 +4,14 @@ body {
 
 .header-nightsky {
     color: white;
-    /*background: url("../../../assets/img/nightsky.jpg") no-repeat;*/
+    background: url("../../assets/img/nightsky.jpg") no-repeat;
     background-size: cover;
     background-position: bottom;
     padding-bottom: 100px;
 }
 
 .header-nightsky .navbar-nav>li>a {
-    /*color: white;*/
+    color: white;
     font-size: 18px;
     border-radius: 10px;
 }
@@ -71,9 +71,8 @@ body {
 
 .header-nightsky .hero {
     text-align: center;
-    margin-top: 3px;
-    margin-left: 3px;
-    /*margin-bottom: 100px;*/
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .header-nightsky .hero h1 {
@@ -131,11 +130,11 @@ body {
     }
 
     .header-nightsky .hero{
-        /*margin-top: 40px;*/
-        /*margin-bottom: 40px;*/
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .header-nightsky .hero h1{
-        /*font-size: 42px;*/
+        font-size: 42px;
     }
 }

@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4" *ngFor="let review of customerReviews">
+        <div class="thumbnail">
+            <div class="caption">
+                <p>Posted By {{review.userName}} on {{review.commentedOn | date:'d/M/y'}}</p>
+                <h3>{{review.title}}</h3>
+                <p>{{review.comment}}</p>
+                <p><a (click)="liked(review)" class="btn btn-primary" role="button">Like {{review.likeCount}}</a></p>
+            </div>
+        </div>
+    </div>
+</div>
